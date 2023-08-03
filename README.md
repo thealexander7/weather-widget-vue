@@ -20,5 +20,10 @@ yarn build
 yarn lint
 ```
 
+### Build widget-vue
+```
+npm run build:wc
+```
+
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
