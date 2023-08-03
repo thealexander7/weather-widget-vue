@@ -1,0 +1,44 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  line-height: 1.4;
+  font-family: 'Monserrat', 'Arial',serif;
+  color: $black-color;
+}
+
+a {
+  color: inherit;
+}
+
+ul, li {
+  padding: 0;
+  list-style: none;
+}
+
+#app {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  font-family: "Roboto", sans-serif;
+}
+
+.slide-fade {
+  &-enter-active,
+  &-leave-active {
+      transition: all 0.3s ease;
+  }
+  &-leave-to {
+      transform: translateY(20px);
+      opacity: 0;
+  }
+  &-enter {
+      transform: translateY(-20px);
+      opacity: 0;
+  }
+}

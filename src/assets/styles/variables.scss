@@ -1,0 +1,14 @@
+// Colors
+$main-bg-color: #f5f5f5;
+$black-color: #0F1D23;
+
+// Spinner
+$spinner: salmon;
+$size: 30px;
+
+// Mixins
+
+@mixin flex-align-center {
+  display: flex;
+  align-items: center;
+}
